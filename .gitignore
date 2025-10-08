@@ -1,0 +1,117 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Machine Learning / Data Science
+# Large data files
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.bin
+*.safetensors
+*.h5
+*.hdf5
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.model
+*.weights
+
+# Data directories
+data/
+datasets/
+models/
+checkpoints/
+logs/
+runs/
+outputs/
+results/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# TensorBoard logs
+runs/
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large experiment outputs
+experiments/*/syn/
+experiments/*/training_checkpoints*/
+experiments/*/demo_data/
+experiments/*/data/
+experiments/*/processed_*
+
+# But keep important experiment files
+!experiments/*/requirements.txt
+!experiments/*/*.py
+!experiments/*/*.ipynb
+!experiments/*/*.md
+!experiments/*/*.json
+!experiments/*/*.yaml
+!experiments/*/*.yml
