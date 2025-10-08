@@ -7,5 +7,5 @@ This repo collects small, focused experiments before they evolve into something 
 
 Currently exploring:
 - Different synthetic EHR generation methods
-- Different LLMs from closed-source，Ollama，HuggingFace platforms
-- Evaluation metrics for trajectory plausibility
+- Different LLMs from closed-source, Ollama, HuggingFace platforms
+- Evaluation metrics for patient trajectory plausibility
