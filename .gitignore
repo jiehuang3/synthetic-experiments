@@ -59,6 +59,13 @@ venv.bak/
 *.safetensors
 *.h5
 *.hdf5
+*.csv
+
+# MIMIC-III data
+mimic-iii/
+MIMIC-III/
+mimic3/
+MIMIC3/
 
 # Model files
 *.pth
@@ -115,3 +122,4 @@ experiments/*/processed_*
 !experiments/*/*.json
 !experiments/*/*.yaml
 !experiments/*/*.yml
+
